@@ -58,3 +58,44 @@ span{
     background-repeat: no-repeat;
     background-position: right;
 }
+#div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+#pad{
+    box-shadow: 10px 10px 50px red;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+   
+}
+h3{
+    color: seagreen;
+}
+#web{
+   
+    box-shadow: 10px 5px 5px grey;
+    position: relative;
+}
+.footer{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.class{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(174, 246, 5),rgb(0, 255, 98),rgb(255, 102, 0));
+    border-image-slice: 1;
+}
+.classs{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(201, 11, 185),rgb(1, 23, 29),rgb(255, 136, 0));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: small;
+}
