@@ -10,7 +10,7 @@ h1{
 .h1-color{
     color: orange;
 }
-section{
+.main-container{
     display: flex;
 }
 .container{
@@ -34,4 +34,27 @@ section{
 .main-container{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.section{
+    display: flex;
+    margin-top: 10px;
+}
+.content{
+    width: 50%;
+    padding: 20x;
+}
+.content img{
+    width: 80%;
+    /* border-radius: 100%; */
+}
+span{
+    color: rgb(12, 165, 12);
+}
+#button{
+    background-image: linear-gradient(rgb(161, 7, 84),rgb(2, 5, 214),rgb(137, 165, 12));
+}
+.section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
